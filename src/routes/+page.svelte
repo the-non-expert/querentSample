@@ -2,6 +2,8 @@
 	import HomePieChart from './HomePieChart.svelte';
 	import HomepageHero from './HomepageHero.svelte';
 	import WhyChooseUs from './WhyChooseUs.svelte';
+	import MeetTheTeam from './MeetTheTeam.svelte';
+	import Contact from './Contact.svelte';
 </script>
 
 <svelte:head>
@@ -13,6 +15,8 @@
 	<HomepageHero />
 	<WhyChooseUs />
 	<HomePieChart />
+	<MeetTheTeam />
+	<Contact />
 </section>
 
 <style>

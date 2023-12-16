@@ -1,6 +1,6 @@
 <script>
-	import AboutHeroSection from '../AboutHeroSection.svelte';
-	import OurMission from '../OurMission.svelte';
+	import AboutHeroSection from './AboutHeroSection.svelte';
+	import OurMission from './OurMission.svelte';
 </script>
 
 <div>

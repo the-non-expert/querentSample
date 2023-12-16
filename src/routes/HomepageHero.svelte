@@ -1,6 +1,6 @@
 <script>
 	import logo from '$lib/images/querentMainLogo.svg';
-
+	import bgVideo from '$lib/images/homePagebg.mp4';
 	import { goto } from '$app/navigation';
 
 	function requestDemo() {
@@ -10,7 +10,7 @@
 
 <div class="relative min-h-screen flex flex-col justify-evenly items-center text-center">
 	<video autoplay loop muted class="video-bg">
-		<source src="" type="video/mp4" />
+		<source src={bgVideo} type="video/mp4" />
 		Your browser does not support the video tag.
 	</video>
 	<div class="logo">
